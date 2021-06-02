@@ -17,3 +17,7 @@ Contains the graph for latitude versus humidity.
 Contains the graph for latitude versus cloudiness.
 ### plot4.html
 Contains the graph for latitude versus windspeed.
+### table.html
+Contains the raw table converted from csv. Not linked to the dashboard.
+### csv-to-html.ipynb
+Contains the Jupyter notebook that converts raw dataframe from .csv to html file.

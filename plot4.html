@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Latitude Analysis Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body style="background-color: lightgrey;">
+    <!-- Nav Bar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a type="button" class="btn btn-info" href="index.html">Latitude</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="plot1.html">Maximum Temperature</a>
+                <a class="dropdown-item" href="plot2.html">Humidity</a>
+                <a class="dropdown-item" href="plot3.html">Cloudiness</a>
+                <a class="dropdown-item" href="plot4.html">Wind Speed</a>
+              </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="data.html">Data</a>
+            </li>
+          </ul>
+        </div>
+    </nav>
+    <!-- Containers -->
+    <div class="container justify-content-md-center">
+        <br/>
+        <div class="row">
+            <div class="col-md-7" style="background-color: white;">
+                <h3>Max Temperature</h3>
+                <br/>
+                <img src="Resources/assets/images/Fig1.png" width="95%" alt="Latitude vs. Temperature">
+                <p>
+                    As expected, the temperature decreases as latitude increases. 
+                    Similarly, the temerature increases as latitude decreases. 
+                    This is a show of negative correlation between the two factors.
+                </p>
+            </div>
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-4" style="background-color: white;">
+                <h4>Visualizations</h4>
+                <br/>
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="plot1.html"><img class="img-thumbnail" src="Resources/assets/images/Fig1.png" alt="Latitude vs. Temperature" ></a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="plot2.html"><img class="img-thumbnail" src="Resources/assets/images/Fig2.png" alt="Latitude vs. Humidity"></a>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <a href="plot3.html"><img class="img-thumbnail" src="Resources/assets/images/Fig3.png" alt="Latitude vs. Cloudiness"></a>
+                    </div>
+                    <div class="col-md-6">
+                        <a href="plot4.html"><img class="img-thumbnail" src="Resources/assets/images/Fig3.png" alt="Latitude vs. Windspeed" style="border: lightseagreen 2px solid"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--JS for Bootstrap-->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+</html>
